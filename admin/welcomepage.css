@@ -1,0 +1,8 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.dropdown{
+    margin-left: 2em;
+}

@@ -1,0 +1,117 @@
+main {
+    padding: 5em 2em;
+    max-width: 94em;
+    margin: 0 auto;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    text-decoration: none;
+    color: black;
+}
+#reg{
+    text-decoration: none;
+    color: black;
+}
+.slide{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+a{
+    color: inherit;
+}
+.slide>form{
+    padding: 2em;
+    margin: 1em;
+}
+.slide>button>a{
+    font-size: 2em;
+}
+.slide>form>button{
+    padding: 4em;
+    border : none;
+    background-color: darkgrey;
+    font-size: 2em;
+    border-radius: 15px;
+    color: black;
+}
+#btn2{
+    padding-right: 5.4em;
+}
+.btn{
+    margin-right: 3em;
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+}
+.btn>a{
+    font-size: 2em;
+}
+.login{
+    margin-bottom: 5em;
+}
+.navbar-custom{
+    height: 10em;
+}
+.navbar>a{
+    cursor: pointer;
+}
+
+div>a{
+    font-size: 30px;
+    padding: 2em;
+    margin-left: 1em;
+}
+:root {
+    /* Base font size */
+    font-size: 10px;
+
+    /* Full grid area variable */
+    --fullGrid: 1 / 1 / -1 / -1;
+}
+
+body {
+    font-family: "Montserrat", Arial, sans-serif;
+    background-color: #fcfcfc;
+}
+
+header {
+    /* Create grid spanning viewport width & height */
+    display: grid;
+    grid-template-rows: 100vh;
+    overflow: hidden;
+    box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.5);
+}
+.video-bg {
+    /* Span the full grid */
+    grid-area: var(--fullGrid);
+
+    /* Re-size video to cover full screen while maintaining aspect ratio */
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+
+    /* Display video below overlay */
+    z-index: -1;
+}
+.video-overlay {
+    /* Span the full grid */
+    grid-area: var(--fullGrid);
+
+    /* Center Content */
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+    /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.55);
+}
+.video-overlay>h1{
+    font-size: 60px;
+    color: white;
+}

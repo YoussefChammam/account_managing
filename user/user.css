@@ -1,0 +1,72 @@
+body{
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+}
+.main{
+    position : relative;
+    width: 330px;
+    background-color: #000 ;
+    padding : 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.log-in{
+    margin: 40px;
+}
+.header{
+    display : inline-block;
+}
+.top{
+    display: inline-block;
+}
+h3{
+    position : relative;
+    cursor : pointer;
+    width: 300px;
+}
+h3:hover{
+    color: #6D9886;
+    transition-delay: 100ms;
+    transition : 200ms;
+}
+
+.info{
+    padding: 10px;
+}
+input{
+    width: 180px;
+    height: 45px;
+    left: 200px;
+}
+.box {
+    font-size: 15px;
+}
+#password{
+    font-size: 30px;
+}
+#password::placeholder {
+    font-size: 15px;
+}
+.vl{
+    margin: 2em;
+    position: relative;
+    border-left: 2px solid #6D9886;
+    height: 8em;
+    top: 2em;
+}
+.btn{
+    position: relative;
+    height: 30px;
+    border: 0;
+    border-radius: 15px ;
+    background-color: #6D9886;
+    font-weight: bold;
+    color: white;
+    top: 10px;
+    left: 9em;
+}
